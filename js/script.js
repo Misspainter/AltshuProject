@@ -14,11 +14,11 @@
     })
 
 
-//    darkLayer.addEventListener ('click', () => {
-//     darkLayer.parentNode.removeChild(darkLayer);
-//     winUp.style.display = 'none';
-//     return false;
-//    })
+   darkLayer.addEventListener ('click', () => {
+    darkLayer.parentNode.removeChild(darkLayer);
+    winUp.style.display = 'none';
+    return false;
+   })
 
    let closeWin = document.querySelector ('.button_up');
    let container = document.querySelector ('.container_text');
