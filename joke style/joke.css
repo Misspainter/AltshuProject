@@ -1,0 +1,58 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.all {
+    width: auto;
+    margin: 50px 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.all h3 {
+    font-size: 24px;
+    color: #476b6a;
+    padding:20px 0;
+}
+
+.picture {
+    width: 650px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.button-press {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    color: #6ac3c0;
+    background-color: white;
+   border: 1px solid black;
+   border-radius: 30px;
+   padding: 10px;
+}
+
+.button-press:hover {
+    color: #396a69;
+}
+
+.answer {
+    width: 650px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
