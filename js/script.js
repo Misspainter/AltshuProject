@@ -24,12 +24,13 @@
    let container = document.querySelector ('.container_text');
 
    closeWin.addEventListener ('click', () => {
-    if (!container[i].value) {
+    if (!container == " ") {
+        console.error ('ERORR!');
+        alert('Вы не ввели данные!');
+    } else {
         alert('Данные отправлены успешно!'); 
         darkLayer.parentNode.removeChild(darkLayer);
-        winUp.style.display = 'none';     
-    } else {
-        console.log('ERORR!')
+        winUp.style.display = 'none';
     }
    });
 
